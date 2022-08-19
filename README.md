@@ -2,6 +2,8 @@
 
 This repository contains a PyTorch implementaion of TiaRa of the paper titled "Time-aware Random Walk Diffusion to Improve Dynamic Graph Learning" submitted to AAAI23.
 
+To clone this repository, type: `git clone -b code https://github.com/aaai23tiara/tiara.git`.
+
 ## Prerequisites
 
 This implementation has been tested in conda virtual environment. Please run `conda env create -f environment.yml [-n ENVNAME]` to create it. Note that the default name of the environment is `tiara`. Please see the full list of packages to be insalled in `environment.yml` where you can change their versions if necessary. The representative packages that we use are as follows:
